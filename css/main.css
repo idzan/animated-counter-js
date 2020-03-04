@@ -22,7 +22,7 @@ body {
           justify-content: center;
   height: 100vh;
   width: 100vw;
-  background: whitesmoke;
+  background: #f5f5f5;
   color: #252525;
 }
 
@@ -31,11 +31,17 @@ section {
   display: grid;
   -ms-grid-columns: (minmax(20vh, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(20vh, 1fr));
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .counting {
   padding: 1rem;
   text-align: center;
+  border-radius: 25px;
+  background: #f5f5f5;
+  -webkit-box-shadow: 20px 20px 25px #d0d0d070, -20px -20px 25px #ffffff90;
+          box-shadow: 20px 20px 25px #d0d0d070, -20px -20px 25px #ffffff90;
 }
 
 .counter {
